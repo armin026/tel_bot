@@ -4,6 +4,7 @@ import difflib
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 from playwright.async_api import async_playwright
+import os
 
 TOKEN = os.environ.get("BOT_TOKEN")
 
