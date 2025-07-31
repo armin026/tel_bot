@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 from playwright.async_api import async_playwright
 
-TOKEN = "8165736546:AAHWeA2T8TN5c32OjWBQ9lCDdmFgbGsHlUY"
+TOKEN = ""
 
 async def search_steam(item_name: str) -> str:
     try:
